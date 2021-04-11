@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Regular;
+    src: url(Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Medium;
+    src: url(Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(Poppins-Bold.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 3% 5% 0% 5%;
+    font-family: Regular;
+    font-size: 11pt;
+    color: black;
+    line-height: 27px;
+}
+
+.bodytext {
+    margin: 5% 10% 0% 10%;
+}
+
+h1 {
+    font-family: Medium;
+    text-align: left;
+    font-size: 20pt;
+    padding-top: 10px;
+    color: #79a2a8;
+}
+
+h2 {
+    font-family: Medium;
+    text-align: center;
+    font-size: 16pt;
+    color: black;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-color: #79a2a8;
+    color: #79a2a8;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1.5px;
+}
+
+a:hover {
+    text-decoration-color: #94C5CC;
+    color: #94C5CC;
+}
+
+b {
+    font-family: Medium;
+}
+
+br {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.box {
+    display: block;
+}
+
+.navwrapper a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    text-align: right;
+}
+
+.leftnav {
+    display: block;
+    font-family: Bold;
+    font-size: 24pt;
+    float: left;
+    text-align: left;
+}
+
+.rightnav {
+    padding-left: 0px;
+    font-size: 14pt;
+    list-style-type: none;
+    align-items: right;
+}
+
+.rightnav ul {
+    list-style-type: none;
+}
+
+.rightnav li {
+    display: inline-block;
+
+}
+
+.rightnav a {
+    padding: 2px 12px;
+}
+
+.rightnav li a:hover {
+    display: inline-block;
+    color: #79a2a8;
+}
+
+.spacer1 {
+    margin-top: 35px;
+}
+
+.socialsbox {
+    display: flex;
+    justify-content: center;
+    position: static;
+}
+
+.social {
+    width: 30px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.spacer {
+    margin-top: 100px;
+}
+
+.bio-container {
+    display: flex;
+}
+
+.bio {
+    flex: 1;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    position: static;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
