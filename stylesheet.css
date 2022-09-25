@@ -22,7 +22,7 @@ html {
 body {
     margin: 3% 5% 0% 5%;
     font-family: Regular;
-    font-size: 16pt;
+    font-size: 13pt;
     color: black;
     line-height: 25px;
 }
@@ -70,7 +70,7 @@ b {
 
 br {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 11px;
 }
 
 .box {
@@ -97,7 +97,7 @@ br {
 
 .rightnav {
     padding-left: 0px;
-    font-size: 14pt;
+    font-size: 15pt;
     list-style-type: none;
     align-items: right;
 }
