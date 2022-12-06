@@ -13,6 +13,11 @@
     src: url(Assistant-Bold.ttf);
 }
 
+@font-face {
+    font-family: SemiBold;
+    src: url(Assistant-SemiBold.ttf);
+}
+
 html {
     scroll-behavior: smooth;
     scroll-snap-type: proximity;
@@ -20,7 +25,9 @@ html {
 }
 
 body {
-    margin: 3% 5% 0% 5%;
+    margin-top: 60px;
+    margin-right: 10%;
+    margin-left: 10%;
     font-family: Regular;
     font-size: 14pt;
     color: black;
@@ -28,11 +35,12 @@ body {
 }
 
 .bodytext {
-    margin: 5% 10% 0% 10%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 h1 {
-    font-family: Medium;
+    font-family: SemiBold;
     text-align: left;
     font-size: 20pt;
     padding-top: 10px;
@@ -65,12 +73,12 @@ a:hover {
 }
 
 b {
-    font-family: Medium;
+    font-family: SemiBold;
 }
 
 br {
     display: block;
-    margin-bottom: 11px;
+    margin-bottom: 12px;
 }
 
 .box {
@@ -85,6 +93,7 @@ br {
 
 .nav {
     text-align: right;
+    margin-bottom: 60px;
 }
 
 .leftnav {
@@ -152,12 +161,13 @@ br {
     display: flex;
     justify-content: center;
     position: static;
-    width: 70%;
+    width: 60%;
+    margin-left: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .footer {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
