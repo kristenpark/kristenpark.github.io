@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>kristen park — home</title>
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="contact-form.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="k.jpeg">
 </head>
 
@@ -12,14 +13,14 @@
 
     <div class="navwrapper">
         <div class="nav">
+            <div class="leftnav">
+                <a href="index.html">kristen park</a>
+            </div>
             <ul class="rightnav">
-                <div class="leftnav">
-                    <a href="index.html">kristen park</a>
-                </div>
                 <li><a href="index.html">home</a></li>
                 <li><a href="writing.html">writing</a></li>
                 <li><a href="projects.html">projects</a></li>
-                <li><a href="contact.html" style="color: #79a2a8">contact</a></li>
+                <li><a href="contact.html" style="color: #84A98C">contact</a></li>
             </ul>
         </div>
     </div>
@@ -30,13 +31,53 @@
             <h1>contact me</h1>
             <p>Feel free to get in touch with me through <a href="https://www.instagram.com/kristen.park_/" target="_blank">Instagram</a>
             or <a href="https://www.linkedin.com/in/kristen-park/" target="_blank">LinkedIn</a>. 
-            You can also contact me at kristen.s.park[at]gmail[dot]com
+            You can also contact me at kristen.s.park[at]gmail[dot]com or use the form below to send a message!
             </p>
         </section>
     </section>
+
+    <section class="spacer1"></section>
+
+    <div class="fcf-body">
+
+        <div id="fcf-form">
+    
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Email</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Message</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+            </div>
+    
+        </form>
+        </div>
+    
+    </div>
     
 
-    <section class="footer"></section>
+    <section class="footer">
+        <p style="text-align:center">© 2022 Kristen Park</p>
+    </section>
 
 </body>
 

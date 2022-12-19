@@ -1,21 +1,16 @@
 @font-face {
     font-family: Regular;
-    src: url(Assistant-Light.ttf);
-}
-
-@font-face {
-    font-family: Medium;
-    src: url(Assistant-Medium.ttf);
+    src: url(CrimsonPro-Light.ttf);
 }
 
 @font-face {
     font-family: Bold;
-    src: url(Assistant-Bold.ttf);
+    src: url(Poppins-Regular.ttf);
 }
 
 @font-face {
     font-family: SemiBold;
-    src: url(Assistant-SemiBold.ttf);
+    src: url(CrimsonPro-SemiBold.ttf);
 }
 
 html {
@@ -40,18 +35,11 @@ body {
 }
 
 h1 {
-    font-family: SemiBold;
+    font-family: Bold;
     text-align: left;
     font-size: 20pt;
     padding-top: 10px;
     color: #84A98C;
-}
-
-h2 {
-    font-family: Medium;
-    text-align: center;
-    font-size: 16pt;
-    color: black;
 }
 
 p {
@@ -105,8 +93,9 @@ br {
 }
 
 .rightnav {
+    font-family: Bold;
     padding-left: 0px;
-    font-size: 15pt;
+    font-size: 13pt;
     list-style-type: none;
     align-items: right;
 }
@@ -161,13 +150,13 @@ br {
     display: flex;
     justify-content: center;
     position: static;
-    width: 60%;
+    width: 65%;
     margin-left: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .footer {
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 250px;
+    margin-bottom: 40px;
 }
