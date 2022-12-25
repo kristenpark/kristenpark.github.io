@@ -27,7 +27,6 @@ body {
     font-size: 14pt;
     color: black;
     line-height: 25px;
-    font-weight: normal;
 }
 
 .bodytext {
@@ -41,6 +40,7 @@ h1 {
     font-size: 20pt;
     padding-top: 10px;
     color: #84A98C;
+    font-weight: normal;
 }
 
 p {
@@ -63,6 +63,7 @@ a:hover {
 
 b {
     font-family: SemiBold;
+    font-weight: normal;
 }
 
 br {
