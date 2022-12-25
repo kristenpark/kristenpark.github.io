@@ -6,19 +6,21 @@
 @font-face {
     font-family: Bold;
     src: url(Poppins-Regular.ttf);
-    font-weight: normal;
 }
 
 @font-face {
     font-family: SemiBold;
     src: url(CrimsonPro-SemiBold.ttf);
-    font-weight: normal;
 }
 
 html {
     scroll-behavior: smooth;
     scroll-snap-type: proximity;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
