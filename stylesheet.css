@@ -17,10 +17,6 @@ html {
     scroll-behavior: smooth;
     scroll-snap-type: proximity;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -webkit-font-smoothing: subpixel-antialiased;
-    text-rendering: optimizeLegibility;
-    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -166,7 +162,7 @@ br {
 }
 
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:1200px) {
     .bodytext {
     margin-right: 5%;
     margin-left: 5%;
