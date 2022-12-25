@@ -144,7 +144,11 @@ br {
     display: flex;
 }
 
-.bio {
+.bio-text {
+    flex: 1;
+}
+
+.bio-image {
     flex: 1;
 }
 
@@ -159,12 +163,12 @@ br {
 }
 
 .footer {
-    margin-top: 250px;
+    margin-top: 100px;
     margin-bottom: 40px;
 }
 
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width: 800px) {
     .bodytext {
         margin-right: 4%;
         margin-left: 4%;
@@ -173,5 +177,13 @@ br {
         margin-right: 4%;
         margin-left: 4%;
     }
+    .bio-container {
+        display: grid;
+        grid-template-areas: 
+        "bio-text bio-text bio-text"
+        "bio-image bio-image bio-image";
+    }
+    .bio-text {grid-area: bio-text;}
+    .bio-image {grid-area: bio-image;}
 }
 
