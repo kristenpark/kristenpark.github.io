@@ -160,3 +160,11 @@ br {
     margin-top: 250px;
     margin-bottom: 40px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .bodytext {
+    margin-right: 5%;
+    margin-left: 5%;
+    }
+}
