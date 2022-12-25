@@ -6,13 +6,13 @@
 @font-face {
     font-family: Bold;
     src: url(Poppins-Regular.ttf);
-    font-weight:normal;
+    font-weight: normal;
 }
 
 @font-face {
     font-family: SemiBold;
     src: url(CrimsonPro-SemiBold.ttf);
-    font-weight:normal;
+    font-weight: normal;
 }
 
 html {
