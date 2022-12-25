@@ -166,12 +166,12 @@ br {
 
 @media only screen and (max-width:1200px) {
     .bodytext {
-        margin-right: 2%;
-        margin-left: 2%;
+        margin-right: 3%;
+        margin-left: 3%;
     }
     body {
-        margin-right: 2%;
-        margin-left: 2%;
+        margin-right: 3%;
+        margin-left: 3%;
     }
 }
 
