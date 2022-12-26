@@ -13,6 +13,7 @@
     src: url(CrimsonPro-SemiBold.ttf);
 }
 
+
 html {
     scroll-behavior: smooth;
     scroll-snap-type: proximity;
@@ -38,13 +39,13 @@ h1 {
     font-family: Bold;
     text-align: left;
     font-size: 20pt;
-    padding-top: 10px;
+    padding-top: 26px;
     color: #84A98C;
     font-weight: normal;
 }
 
 p {
-    margin-bottom: 10px;
+    margin-bottom: 18px;
     margin-top: 0px;
 }
 
@@ -84,6 +85,13 @@ br {
 .nav {
     text-align: right;
     margin-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.hamburger {
+    margin-bottom: 5px;
+    margin-top: -4px;
 }
 
 .leftnav {
@@ -96,10 +104,9 @@ br {
 
 .rightnav {
     font-family: Bold;
-    padding-left: 0px;
-    font-size: 13pt;
+    padding-left: 3px;
+    font-size: 13.5pt;
     list-style-type: none;
-    align-items: right;
 }
 
 .rightnav ul {
@@ -108,11 +115,10 @@ br {
 
 .rightnav li {
     display: inline-block;
-
 }
 
 .rightnav a {
-    padding: 2px 12px;
+    padding: 5px 12px;
 }
 
 .rightnav li a:hover {
@@ -168,7 +174,7 @@ br {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 991.98px) {
     .bodytext {
         margin-right: 4%;
         margin-left: 4%;
