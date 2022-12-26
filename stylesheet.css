@@ -183,6 +183,9 @@ br {
         margin-right: 4%;
         margin-left: 4%;
     }
+    .leftnav {
+        margin-left: 4%;
+    }
     .bio-container {
         display: grid;
         grid-template-areas: 
