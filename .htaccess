@@ -8,12 +8,6 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 RewriteCond %{THE_REQUEST} /index.html HTTP [NC]
 RewriteRule (.*)index.html$ /$1 [R=301,L]
 
-# redirect non-www to www
-RewriteEngine On
-
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^(.*)$ http://www.kristen-park.com/$1 [L,R=301]
-
 # redirect http to https
 RewriteCond %{SERVER_PORT} !^443$
 RewriteRule ^(.*)$ https://www.kristen-park.com/$1 [L,R=301]
