@@ -153,7 +153,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     width: 100%;
 }
 
-input[type='text'] {
+input[type='text'], input[type='email'] {
     font-family: Arial, Helvetica, sans-serif;
 }
 
