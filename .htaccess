@@ -11,9 +11,9 @@ RewriteRule (.*)index.html$ /$1 [R=301,L]
 # redirect non-www to www
 RewriteEngine On
 
-RewriteCond %{HTTP_HOST} ^kristen-park.com [NC]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteRule ^(.*)$ http://www.kristen-park.com/$1 [L,R=301]
 
 # redirect http to https
-RewriteCond %{HTTPS} off 
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule ^(.*)$ https://www.kristen-park.com/$1 [L,R=301]
