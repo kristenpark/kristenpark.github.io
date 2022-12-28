@@ -1,19 +1,19 @@
+# remove .html from pages
 RewriteEngine on 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
+# remove index.html from home page
 RewriteCond %{THE_REQUEST} /index.html HTTP [NC]
 RewriteRule (.*)index.html$ /$1 [R=301,L]
 
-RewriteCond %{HTTPS} off 
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
-
-
+# redirect non-www to www
 RewriteEngine On
 
 RewriteCond %{HTTP_HOST} ^kristen-park.com [NC]
 RewriteRule ^(.*)$ http://www.kristen-park.com/$1 [L,R=301]
 
-RewriteCond %{SERVER_PORT} !^443$
-RewriteRule ^(.*)$ https://www.kristen-park.com/$1 [L,R=301] 
+# redirect http to https
+RewriteCond %{HTTPS} off 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
