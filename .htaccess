@@ -11,3 +11,8 @@ RewriteRule (.*)index.html$ /$1 [R=301,L]
 # redirect http to https
 RewriteCond %{SERVER_PORT} !^443$
 RewriteRule ^(.*)$ https://www.kristen-park.com/$1 [L,R=301]
+
+# redirect http OR non www to https www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^kristen-park.com [NC]
+RewriteRule ^(.*)$ https://www.kristen-park.com/$1 [L,R=301]
