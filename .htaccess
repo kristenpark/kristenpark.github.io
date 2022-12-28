@@ -9,5 +9,6 @@ RewriteRule (.*)index.html$ /$1 [R=301,L]
 RewriteCond %{HTTPS} off 
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
-RewriteCond %{HTTP_HOST} ^kristen-park.com [NC]
-RewriteRule ^(.*)$ http://www.kristen-park.com/$1 [L,R=301]
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^kristen-park.com 
+RewriteRule (.*) https://www.kristen-park.com/$1 [R=301,L]
