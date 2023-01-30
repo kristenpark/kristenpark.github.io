@@ -1,6 +1,6 @@
 @font-face {
     font-family: Regular;
-    src: url(CrimsonPro-Light.ttf);
+    src: url(Inter-Light.ttf);
 }
 
 @font-face {
@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: SemiBold;
-    src: url(CrimsonPro-SemiBold.ttf);
+    src: url(Inter-SemiBold.ttf);
 }
 
 
@@ -25,9 +25,9 @@ body {
     margin-right: 10%;
     margin-left: 10%;
     font-family: Regular;
-    font-size: 14pt;
+    font-size: 12pt;
     color: black;
-    line-height: 28px;
+    line-height: 26px;
 }
 
 .bodytext {
