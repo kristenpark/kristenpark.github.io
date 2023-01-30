@@ -1,11 +1,11 @@
 @font-face {
-    font-family: Regular;
-    src: url(Inter-Light.ttf);
+    font-family: Bold;
+    src: url(Poppins-Regular.ttf);
 }
 
 @font-face {
-    font-family: Bold;
-    src: url(Poppins-Regular.ttf);
+    font-family: Regular;
+    src: url(Inter-Light.ttf);
 }
 
 @font-face {
