@@ -124,6 +124,7 @@ br {
 .rightnav li a:hover {
     display: inline-block;
     text-decoration: underline;
+    text-decoration-color: black;
 }
 
 .spacer1 {
