@@ -133,14 +133,19 @@ br {
 
 .socialsbox {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     position: static;
 }
 
 .social {
     width: 30px;
-    padding-right: 2px;
-    padding-left: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.socialsbox img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
 }
 
 .spacer {
