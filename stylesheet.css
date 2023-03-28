@@ -192,6 +192,7 @@ br {
 
 .bio-image {
     flex: 1;
+    margin-bottom: 18px;
 }
 
 .photo {
