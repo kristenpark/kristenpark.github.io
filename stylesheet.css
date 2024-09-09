@@ -22,17 +22,12 @@ html {
 
 body {
     margin-top: 60px;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 20%;
+    margin-left: 20%;
     font-family: Regular;
     font-size: 11pt;
     color: black;
     line-height: 24px;
-}
-
-.bodytext {
-    margin-right: 10%;
-    margin-left: 10%;
 }
 
 h1 {
@@ -70,6 +65,11 @@ b {
 br {
     display: block;
     margin-bottom: 14px;
+}
+
+.bodytext {
+    display: block;
+    padding-right: 30px;
 }
 
 .box {
@@ -184,25 +184,27 @@ br {
 
 .bio-container {
     display: flex;
+    margin-top: 20px;
+    margin-right: auto;
 }
 
 .bio-text {
-    flex: 1;
+    float: left;
+    width: 70%;
+    padding-right: 30px;
 }
 
 .bio-image {
-    flex: 1;
     margin-bottom: 18px;
+    float: right;
 }
 
 .photo {
     display: flex;
-    justify-content: center;
     position: static;
-    width: 70%;
-    margin-left: 10px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: 30px;
+    width: 275px;
 }
 
 .footer {
@@ -215,6 +217,7 @@ br {
     .bodytext {
         margin-right: 4%;
         margin-left: 4%;
+        padding-right: 0px;
     }
     body {
         margin-right: 4%;
@@ -229,7 +232,19 @@ br {
         "bio-text bio-text bio-text"
         "bio-image bio-image bio-image";
     }
-    .bio-text {grid-area: bio-text;}
-    .bio-image {grid-area: bio-image;}
+    .bio-text {
+        grid-area: bio-text;
+        width: auto;
+        padding-right: 0px;
+    }
+    .bio-image {
+        grid-area: bio-image;
+        width: auto;
+    }
+    .photo {
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
