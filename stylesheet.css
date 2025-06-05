@@ -1,16 +1,21 @@
 @font-face {
-    font-family: Bold;
+    font-family: Regular;
     src: url(assets/Inter-Regular.ttf);
 }
 
 @font-face {
-    font-family: Regular;
+    font-family: Light;
     src: url(assets/Inter-Light.ttf);
 }
 
 @font-face {
     font-family: SemiBold;
     src: url(assets/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(assets/Inter-Bold.ttf);
 }
 
 
@@ -31,7 +36,7 @@ body {
 }
 
 h1 {
-    font-family: Bold;
+    font-family: Regular;
     text-align: left;
     font-size: 20pt;
     padding-top: 26px;
@@ -58,7 +63,7 @@ a:hover {
 }
 
 b {
-    font-family: SemiBold;
+    font-family: Bold;
     font-weight: normal;
 }
 
@@ -96,14 +101,14 @@ br {
 
 .leftnav {
     display: block;
-    font-family: Bold;
+    font-family: Regular;
     font-size: 24pt;
     float: left;
     text-align: left;
 }
 
 .rightnav {
-    font-family: Bold;
+    font-family: Regular;
     padding-left: 3px;
     font-size: 13.5pt;
     list-style-type: none;
