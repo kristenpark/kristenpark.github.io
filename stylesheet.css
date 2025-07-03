@@ -1,11 +1,16 @@
 @font-face {
+    font-family: Light;
+    src: url(assets/Inter-Light.ttf);
+}
+
+@font-face {
     font-family: Regular;
     src: url(assets/Inter-Regular.ttf);
 }
 
 @font-face {
-    font-family: Light;
-    src: url(assets/Inter-Light.ttf);
+    font-family: Medium;
+    src: url(assets/Inter-Medium.ttf);
 }
 
 @font-face {
@@ -62,7 +67,7 @@ a:hover {
 }
 
 b {
-    font-family: SemiBold;
+    font-family: Medium;
     font-weight: normal;
 }
 
