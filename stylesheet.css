@@ -31,17 +31,17 @@ html {
 }
 
 body {
+    font-family: Regular;
     margin-top: 60px;
     margin-right: 20%;
     margin-left: 20%;
-    font-family: Light;
     font-size: 12pt;
     color: black;
-    line-height: 23px;
+    line-height: 24px;
 }
 
 h1 {
-    font-family: Light;
+    font-family: Regular;
     text-align: left;
     font-size: 22pt;
     padding-top: 26px;
