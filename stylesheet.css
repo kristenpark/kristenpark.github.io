@@ -76,6 +76,10 @@ br {
     margin-bottom: 14px;
 }
 
+ul {
+    padding-left: 1em;
+}
+
 .bodytext {
     display: block;
     padding-right: 30px;
