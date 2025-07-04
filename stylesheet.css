@@ -196,14 +196,15 @@ ul {
 }
 
 .bio-container {
+    width: 100%;
     display: flex;
-    margin-right: auto;
+    justify-content: space-between;
 }
 
 .bio-text {
     float: left;
     width: 70%;
-    padding-right: 30px;
+    margin-right: 5%;
 }
 
 .bio-image {
@@ -214,9 +215,7 @@ ul {
 .photo {
     display: flex;
     position: static;
-    margin-right: auto;
-    margin-left: 30px;
-    width: 275px;
+    width: 18em;
 }
 
 .footer {
