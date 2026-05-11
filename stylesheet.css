@@ -55,15 +55,15 @@ p {
 
 a {
     text-decoration: underline;
-    text-decoration-color: #5F6368;
-    color: #5F6368;
+    text-decoration-color: #4F6D8A;
+    color: #4F6D8A;
     text-underline-offset: 5px;
     text-decoration-thickness: 1.5px;
 }
 
 a:hover {
-    text-decoration-color: #2F2F2F;
-    color: #2F2F2F;
+    text-decoration-color: #668db3;
+    color: #668db3;
 }
 
 b {
