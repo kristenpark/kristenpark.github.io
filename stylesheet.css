@@ -62,8 +62,13 @@ a {
 }
 
 a:hover {
-    text-decoration-color: #668db3;
-    color: #668db3;
+    text-decoration-color: #4F6D8A;
+    color: #4F6D8A;
+}
+
+.quote {
+    text-decoration-color: #4F6D8A;
+    color: #4F6D8A;
 }
 
 b {
