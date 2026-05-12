@@ -33,11 +33,14 @@ html {
 body {
     font-family: Regular;
     margin-top: 40px;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 12pt;
     color: black;
     line-height: 24px;
+    
+    width: 94%;
+    max-width: 1375px;
 }
 
 h1 {
